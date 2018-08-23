@@ -1,0 +1,234 @@
+{
+  "recipes": [
+    {
+      "id": "0",
+      "title": "Tacopaj",
+      "description": "Snabbt och gott efter jobbet!",
+      "ingredients": [
+        "2 dl vetemjöl",
+        "100 gram smör",
+        "2 msk vatten",
+        "400 gram nötfärs",
+        "margarin",
+        "1,25 dl vatten",
+        "1 påse kryddmix, Old El Paso Spice Mix for Tacos",
+        "1,5 msk jalapenos, Old El Paso, hackade",
+        "2 dl crème fraiche, paprika & chili",
+        "3 st tomat(er)",
+        "150 gram cheddarost"
+      ],
+      "steps": [
+        "Pajdeg: Sätt ugnen på 225°C. Blanda mjöl och smör till en grynig massa. Tillsätt 2 matskedar vatten och arbeta snabbt ihop degen. Låt vila kallt en stund. Tryck ut degen i en smord pajform. Förgrädda pajskalet ca 10 min.",
+        "Fyllning: Bryn köttfärsen i lite margarin. Tillsätt kryddmix och 1,25 dl vatten. Rör om. Låt sjuda på svag värme 10-15 min eller tills vattnet kokat in. Rör om då och då. Tillsätt jalapeños.",
+        "Lägg köttfärsfyllningen i pajskalet och bred över crème fraîche. Riv osten och skiva tomaterna. Fördela tomatskivorna ovanpå och strö till sist över osten.",
+        "Grädda pajen 10-15 min eller tills osten smält och fått fin färg."
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Pulled pork",
+      "description": "Bjud på denna smakrika gryta kallad pulled pork på festen så blir alla nöjda! Koka ditt kött med barbecuesås och lök tills det är riktigt mört och låt sen var och en lägga upp den goda köttgrytan i bröd med krispig majs, rödlök och gräddfil.",
+      "ingredients": [
+        "1 1/2 kg benfri fläskkarré i bit",
+        "3 tsk salt",
+        "3 krm nymalen svartpeppar",
+        "2 gula lökar",
+        "1 hel vitlök",
+        "1 flaska barbequesås hickory (à 250 ml)",
+        "12 portionsbröd, t ex minibaguette eller källarfranska",
+        "1 fint strimlad rödlök",
+        "1 burk tomatsalsa (à 300 g)",
+        "1 burk majs (à 340 g)",
+        "3 dl gräddfil"
+      ],
+      "steps": [
+        "Sätt ugnen på 125°C.",
+        "Krydda köttet runt om med salt och peppar. Lägg det i en gryta med lock som tål ugnsvärme.",
+        "Skala och skär löken i klyftor. Skala vitlöksklyftorna. Lägg lök och vitlök runt om köttet i grytan. Häll på barbecuesåsen så det täcker kött och lök. Sätt på locket, låt köttet stå i nedre delen av ugnen 4–5 timmar, tills det är riktigt mört.",
+        "Dra isär köttet direkt i grytan med en gaffel så det faller isär och blandas med såsen.",
+        "Till servering: Dela bröden och låt var och en fylla sitt bröd med kött och tillbehör."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Flygande Jacob",
+      "description": "Kycklinggryta finns i alla former och smaker men ingen är som denna gamla goding. Flygande Jakob med ris behöver ingen närmare presentation mer än att den har allt. Bacon, banan, grädde, jordnötter, kycklingfilé och en skvätt nostalgi förstås. Enkelt och galet gott.",
+      "ingredients": [
+        "4 minutfiléer av kyckling",
+        "140 g tärnat bacon",
+        "1 banan",
+        "2 dl vispgrädde",
+        "4 port ris (gärna basmatiris)",
+        "1 dl salta jordnötter",
+        "1 romansallad",
+        "1 dl chilisås"
+      ],
+      "steps": [        
+        "Sätt ugnen på 225°C.",
+        "Bryn kycklingen i oljan i en stekpanna, krydda med salt och peppar. Lägg i en ugnssäker form. Stek baconet och lägg på kycklingen.",
+        "Skala och skiva bananen och lägg på kycklingen.",
+        "Vispa grädden och vänd ner chilisås, smaka av med salt och peppar. Häll det över kycklingen.",
+        "Tillaga kycklingen mitt i ugnen tills innertemperaturen är 72°C, ca 15 minuter.",
+        "Koka riset enligt anvisningen på förpackningen.",
+        "Skär salladen i bitar.",
+        "Strö jordnötterna över kycklingen och servera med ris och sallad."
+      ] 
+    },
+    {
+      "id": "3",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "4",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "5",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "6",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "7",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "8",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "9",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "10",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "11",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "12",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "13",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    },
+    {
+      "id": "14",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quae repudiandae doloremque in, minus nesciunt molestias odio eos omnis animi ea officiis, amet ad ut dolore, asperiores dicta necessitatibus alias.",
+      "ingredients": [
+        "Lorem",
+        "Ipsum"
+      ],
+      "steps": [        
+        "Lorem",
+        "Ipsum"
+      ] 
+    }
+  ]
+}
