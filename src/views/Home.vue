@@ -28,13 +28,15 @@ export default {
 <style scoped lang="scss">
 .recipes {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 12px;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   margin: auto;
-  padding: 10px;
+  padding: 12px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 24px;
+    padding: 24px;
   }
 
   @media screen and (min-width: 1000px) {
