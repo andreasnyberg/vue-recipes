@@ -18,20 +18,26 @@
 }
 
 body {
+  background-color: #fbfbfb;
   margin: 0;
 }
 
 ul, ol {
+  line-height: 1.6;
   padding-left: 20px;
 }
 
 .floating-button {
   background-color: #fff;
-  border-radius: 8px;
+  border: none;
+  border-radius: 5px;
   box-shadow: 0 25px 85px rgba(0,0,0,0.15);
   cursor: pointer;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
+  outline: none;
+
+  @media screen and (min-width: 768px) { border-radius: 10px; }
 
   &:after {
     content: "";
@@ -58,6 +64,22 @@ ul, ol {
   &:active {
     background-color: #eee;
   }
+
+  &--round {
+    $size: 80px;
+
+    display: block;
+    border-radius: 1000px;
+    width: $size;
+    height: $size;
+    
+    &:after { border-radius: 1000px; }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 { font-size: 50px; }
+  h2 { font-size: 30px; }
 }
 
 // CSS STATE

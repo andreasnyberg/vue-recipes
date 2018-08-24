@@ -39,7 +39,7 @@ export default {
     padding: 24px;
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 992px) {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-top: 100px;
   }

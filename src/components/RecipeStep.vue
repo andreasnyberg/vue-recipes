@@ -28,8 +28,13 @@ $color: #fcc4de;
   & + label {
     cursor: pointer;
     display: inline-block;
+    line-height: 1.6;
     padding-left: 32px;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 44px;
+    }
   }
 
   // checkbox
@@ -43,6 +48,7 @@ $color: #fcc4de;
     height: 24px;
 
     position: absolute;
+    top: -2px;
     left: 0;
     vertical-align: text-top;
   }
@@ -58,7 +64,7 @@ $color: #fcc4de;
     content: '';
     position: absolute;
     left: 8px;
-    top: 13px;
+    top: 11px;
     background: #fff;
     width: 2px;
     height: 2px;

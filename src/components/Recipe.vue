@@ -1,6 +1,6 @@
 <template>
-  <div class="recipe">
-    <router-link to="/" class="recipe-close floating-button" />
+  <div :class="['recipe', state.bigFontMode ? 'bigfont-mode' : '']">
+    <router-link to="/" class="recipe-close floating-button floating-button--round" />
 
     <h1>{{ recipe.title }}</h1>
 
@@ -24,7 +24,7 @@
             v-for="(step, index) in recipe.steps"
             :key="index"
           >
-            <RecipeStep 
+            <RecipeStep
               :index="index"
               :step="step"
             />
@@ -32,6 +32,11 @@
         </ul>
       </div>
     </div>
+
+    <button
+      v-on:click="toggleBigfontMode"
+      class="toggle-bigfont-mode floating-button floating-button--round"
+    />
   </div>
 </template>
 
@@ -42,11 +47,14 @@ import RecipeStep from './RecipeStep.vue';
 export default {
   name: 'Recipe',
   components: {
-    RecipeStep
+    RecipeStep,
   },
   data() {
     return {
       recipes,
+      state: {
+        bigFontMode: false,
+      },
     };
   },
   computed: {
@@ -54,34 +62,32 @@ export default {
       return this.recipes.find(item => item.id === this.$route.params.id);
     },
   },
+  methods: {
+    toggleBigfontMode() {
+      this.state.bigFontMode = !this.state.bigFontMode;
+    },
+  },
 };
 </script>
 
 <style scoped lang="scss">
-.recipe-close {
-  $size: 80px;
-  $margin: 12px;
-
-  background-image: url('../assets/icon-close.png');
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-  border-radius: 1000px;
-  position: absolute;
-  right: $margin;
-  top: $margin;
-  width: $size;
-  height: $size;
-
-  &:after { border-radius: 1000px; }
-}
 
 .recipe {
   margin: 0 10px;
+  padding-bottom: 120px;
+
+  label, li {
+    transition: font-size 0.2s ease;
+  }
 
   h1 {
     width: 73%;
+  }
+
+  &.bigfont-mode {
+    label, li {
+      font-size: 22px;
+    }
   }
 }
 
@@ -92,6 +98,29 @@ export default {
   }
 }
 
+// buttons
+$button-margin: 12px;
+
+.recipe-close {
+  background-image: url('../assets/icon-close.png');
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: $button-margin;
+  top: $button-margin;
+}
+
+.toggle-bigfont-mode {
+  background-image: url('../assets/icon-bigfont.svg');
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: $button-margin;
+  bottom: $button-margin;
+}
+
 @media screen and (min-width: 768px) {
   .recipe {
     margin: 40px 20px 0;
@@ -99,6 +128,36 @@ export default {
     h1 {
       margin-bottom: 60px;
       width: 100%;
+    }
+
+    .recipe-ingredients {
+      ul, ol { padding-right: 30px; }
+    }
+
+    &.bigfont-mode {
+
+      label {
+        outline: 2px solid pink;
+        padding-left: 50px;
+      }
+
+      li {
+        font-size: 26px;
+      }
+
+      .recipe-sections {
+        flex-direction: column;
+      }
+
+      .recipe-ingredients {
+        margin-bottom: 40px;
+      }
+
+      .recipe-steps {
+        .step-row {
+          margin-bottom: 40px;
+        }
+      }
     }
   }
 
@@ -108,9 +167,19 @@ export default {
     .recipe-ingredients {
       flex-basis: 35%;
     }
-    
+
     .recipe-steps {
       flex-basis: 65%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .recipe {
+    &.bigfont-mode {
+      .recipe-sections {
+        flex-direction: row;
+      }
     }
   }
 }
