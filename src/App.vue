@@ -66,7 +66,7 @@ ul, ol {
   transition: opacity .2s;
 }
 
-.fade-enter, 
+.fade-enter,
 .fade-leave-to {
   opacity: 0;
 }

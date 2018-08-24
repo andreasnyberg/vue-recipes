@@ -5,7 +5,7 @@
     <h1>{{ recipe.title }}</h1>
 
     <div class="recipe-sections">
-      <div class="recipe-section recipe-ingredients">
+      <div class="recipe-ingredients">
         <h2>Ingredienser</h2>
         <ul>
           <li
@@ -17,16 +17,19 @@
         </ul>
       </div>
 
-      <div class="recipe-section recipe-steps">
+      <div class="recipe-steps">
         <h2>Tillagning</h2>
-        <ol>
+        <ul>
           <li
-            v-for="step in recipe.steps"
-            :key="step"
+            v-for="(step, index) in recipe.steps"
+            :key="index"
           >
-            {{ step }}
+            <RecipeStep 
+              :index="index"
+              :step="step"
+            />
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   </div>
@@ -34,9 +37,13 @@
 
 <script>
 import { recipes } from '@/store/recipes.json';
+import RecipeStep from './RecipeStep.vue';
 
 export default {
   name: 'Recipe',
+  components: {
+    RecipeStep
+  },
   data() {
     return {
       recipes,
@@ -75,6 +82,13 @@ export default {
 
   h1 {
     width: 73%;
+  }
+}
+
+.recipe-steps {
+  ul {
+    list-style-type: none;
+    padding: 0;
   }
 }
 
